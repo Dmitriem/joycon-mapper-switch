@@ -3,6 +3,8 @@ apply plugin: 'com.android.application'
 android {
     namespace 'com.switchroot.joyconmapper'
     compileSdk 35
+
+    ndkVersion "27.3.13750724"  // <--- добавить эту строку с версией NDK
     
     defaultConfig {
         applicationId "com.switchroot.joyconmapper"
@@ -54,4 +56,5 @@ android {
 
 dependencies {
     implementation 'androidx.appcompat:appcompat:1.6.1'
+
 }
