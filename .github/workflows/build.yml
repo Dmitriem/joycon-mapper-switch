@@ -1,5 +1,8 @@
 name: Build JoyCon Mapper APK
 
+permissions:
+  contents: write
+
 on:
   push:
     branches: [ main, master ]
